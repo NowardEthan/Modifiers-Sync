@@ -3,7 +3,7 @@
 Addon para **Blender** (3.6+, testado no **5.1**) que sincroniza **modificadores** de um objeto **líder** para vários **seguidores**, com fluxo não destrutivo.
 
 **Repositório:** [github.com/NowardEthan/Modifiers-Sync](https://github.com/NowardEthan/Modifiers-Sync)  
-**Versão actual:** **0.8.3**  
+**Versão actual:** **0.8.4**  
 **Autor:** Ethan ([@NowardEthan](https://github.com/NowardEthan))
 
 ---
@@ -103,4 +103,4 @@ Ver **[CHANGELOG.md](CHANGELOG.md)**.
 
 ## Licença
 
-Acrescenta um ficheiro `LICENSE` ao repositório quando decidires (muitos addons Blender usam **GPL-3.0** por alinhamento com o próprio Blender).
+Este projeto está licenciado sob a **GNU General Public License v3.0** — ver o ficheiro **[LICENSE](LICENSE)**. Esta escolha alinha-se ao licenciamento do **Blender** (GPL) e é habitual em addons da comunidade.

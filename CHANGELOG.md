@@ -3,6 +3,17 @@
 Todas as alterações notáveis ao **Modifier Sync** são documentadas aqui.  
 O formato segue ideias de [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+## [0.8.4] — 2026-05-09
+
+### Adicionado
+- Ficheiro **LICENSE** com **GNU General Public License v3.0** (alinhado ao ecossistema Blender).
+- Documentação no **README** sobre a licença.
+
+### Notas
+- Sem alterações ao código Python do addon relativamente à 0.8.3; incremento de versão para marcar o pacote do repositório e releases.
+
+---
+
 ## [0.8.3] — 2026-05-09
 
 ### Corrigido

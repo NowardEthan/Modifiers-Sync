@@ -11,7 +11,7 @@
 bl_info = {
     "name": "Modifier Sync (Líder/Seguidores)",
     "author": "Ethan",
-    "version": (0, 8, 3),
+    "version": (0, 8, 4),
     "blender": (3, 6, 0),
     "location": "View3D > Sidebar (N) > Modifier Sync",
     "description": (
