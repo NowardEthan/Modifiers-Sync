@@ -3,7 +3,7 @@
 Addon para **Blender** (3.6+, testado no **5.1**) que sincroniza **modificadores** de um objeto **líder** para vários **seguidores**, com fluxo não destrutivo.
 
 **Repositório:** [github.com/NowardEthan/Modifiers-Sync](https://github.com/NowardEthan/Modifiers-Sync)  
-**Versão actual:** **0.8.4**  
+**Versão actual:** **0.8.5**  
 **Autor:** Ethan ([@NowardEthan](https://github.com/NowardEthan))
 
 ---
@@ -12,9 +12,11 @@ Addon para **Blender** (3.6+, testado no **5.1**) que sincroniza **modificadores
 
 ### A partir do ZIP (recomendado)
 
-1. Clica em **Code → Download ZIP** neste repositório (ou comprime tu a pasta `modifier_sync` com todos os `.py` dentro).
-2. No Blender: **Edit → Preferences → Add-ons → Install…** e escolhe o ZIP.
+1. Clica em **Code → Download ZIP** neste repositório (ou comprime tu a pasta `modifier_sync` com todos os `.py` **e** o `blender_manifest.toml` dentro).
+2. No Blender: **Edit → Preferences → Add-ons → Install…** (ou **Extensions** no 4.2+) e escolhe o ZIP.
 3. Activa **Modifier Sync (Líder/Seguidores)**.
+
+**Blender Extensions** ([extensions.blender.org](https://extensions.blender.org/)): o ZIP tem de incluir **`blender_manifest.toml`** na raiz do addon (junto do `__init__.py`). Para validar/empacotar com o Blender: na pasta `modifier_sync`, corre `blender --command extension validate` e `blender --command extension build`.
 
 ### A partir do Git
 
@@ -83,6 +85,7 @@ Alterações em **Edit → Preferences → Keymap** (mapa **3D View** do addon).
 
 ```
 modifier_sync/
+  blender_manifest.toml  # Extensions (extensions.blender.org)
   __init__.py      # bl_info, register / unregister
   properties.py    # dados na Scene, preferências do addon
   operators.py     # operadores (grupo, push, duplicar, etc.)

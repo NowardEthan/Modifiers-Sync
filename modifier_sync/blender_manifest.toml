@@ -1,0 +1,28 @@
+# Blender Extension manifest — obrigatório para extensions.blender.org
+# Validar localmente: blender --command extension validate
+# Empacotar: na pasta do addon, blender --command extension build
+schema_version = "1.0.0"
+
+id = "nowardethan_modifier_sync"
+version = "0.8.5"
+name = "Modifier Sync (Líder/Seguidores)"
+tagline = "Sync leader object modifiers to followers in real time"
+maintainer = "Ethan <NowardEthan@users.noreply.github.com>"
+type = "add-on"
+
+website = "https://github.com/NowardEthan/Modifiers-Sync"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2026 Ethan (NowardEthan)",
+]
+
+tags = ["Object", "3D View", "Mesh"]
+
+[permissions]
+files = "Install addon updates from ZIP files selected in preferences"

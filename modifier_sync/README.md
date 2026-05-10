@@ -11,6 +11,7 @@ Esta pasta é o **addon** propriamente dito (instala no Blender como ZIP desta p
 
 | Ficheiro | Função |
 |----------|--------|
+| `blender_manifest.toml` | Metadados para [Blender Extensions](https://extensions.blender.org/) |
 | `__init__.py` | `bl_info`, `register` / `unregister` |
 | `properties.py` | Grupos na Scene, preferências |
 | `operators.py` | Operadores (criar grupo, push, duplicar, etc.) |

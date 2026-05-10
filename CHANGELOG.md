@@ -3,6 +3,19 @@
 Todas as alterações notáveis ao **Modifier Sync** são documentadas aqui.  
 O formato segue ideias de [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+## [0.8.5] — 2026-05-09
+
+### Adicionado
+- **`blender_manifest.toml`** — formato exigido pelo [Blender Extensions](https://extensions.blender.org/) (erro *«The manifest file is missing»* sem este ficheiro).
+- Permissão **`files`** no manifest (operador de instalar actualização via ZIP nas preferências).
+- Tags de plataforma: Object, 3D View, Mesh.
+
+### Notas
+- `blender_version_min = "4.2.0"` no manifest (extensões oficiais); o `bl_info` mantém compatibilidade com instalação clássica em versões anteriores quando aplicável.
+- O **`id`** da extensão (`nowardethan_modifier_sync`) deve manter-se estável entre uploads no portal.
+
+---
+
 ## [0.8.4] — 2026-05-09
 
 ### Adicionado
